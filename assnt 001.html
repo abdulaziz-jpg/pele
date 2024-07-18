@@ -1,0 +1,95 @@
+<html>
+<head>
+ <body background="U.jpeg">
+<h1><center>MPAKA KUKUCHE LODGE</center></h1> 
+<style>
+    .navbar {
+        background-color: cyan;
+        overflow: hidden;
+    }
+
+    .navbar button {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .navbar button:hover {
+        background-color: cyan;
+    }
+    ..p{
+        font-size: medium;
+
+    }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<button>Home</button>
+<button>About Us</button>
+<button>Contact Us</button>
+<button>FAQs</button>
+</div>
+
+<!-- Rest of your content goes here -->
+
+</body>
+
+<h2><marquee scrollamount ="15" bgcolor ="cyan" direction ="left"><b>WELCOME TO MPAKA KUKUCHE LODGE</b></marquee></h2>
+    </body>
+<style>
+.moc{
+color: white;
+}
+</style>
+ 
+<script>
+function validate(){
+    var firstname =document.myform.firstname.value;
+    var secondname =document.myform.secondname.value;
+    if(firstname==null || firstname==""){
+        alert("fill your first name");
+        return false;
+    }
+    else if(secondname==null || secondname=="") {
+        alert("fill your second name");
+        return false;}
+}
+</script>
+</head>
+<form firstname = "myform" method="post">
+<b><p>FIRST NAME:</p></b></c><input type="text" value="firstname" name="name"><br>
+<b>LAST NAME:</b><tab><input type="TEXT"value="lastname" name="name"><br>
+<b>GENDER</b> <input type="radio" name="sex" value="male">male
+    <input type="radio"name="sex" value="female">female<br><br>
+<b>ROOM NUMBER</b> &nbsp;<input type="checkbox"value="110">110
+    <input type="radio"value="112">112
+        <input type="checkbox" name="room" value="111">111
+        <input type="checkbox" name="room" value="113">113
+        <input type="checkbox" value="114">114
+        <input type="checkbox"value="115">115
+        <input type="checkbox"value="116">116
+        <input type="checkbox"value="117">117
+        <input type="checkbox"value="118">118
+        <input type="checkbox"value="119">119
+        <input type="checkbox"value="120">120 <br><br>
+    NUMBER OF DAYS &nbsp; <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>1 week</option>
+    </select>
+    <input type="submit" value="Register" onclick="validate ()">
+</form>
+
+</html>
